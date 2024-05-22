@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Methods</title>
+</head>
+<body>
+    <h1 id="heading">Hello, World!</h1>
+    <button onclick="changeText()">Change Text</button>
+ 
+    <script>
+        function changeText() {
+            // Get the element with the id "heading"
+            var headingElement = document.getElementById("heading");
+            
+            // Change the inner text
+            headingElement.innerText = "New Text";
+            
+            // Change the background color
+            headingElement.style.backgroundColor = "lightblue";
+        }
+    </script>
+</body>
+</html>
+

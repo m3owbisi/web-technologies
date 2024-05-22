@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website with Bootstrap and jQuery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Item List</h1>
+        <ul class="list-group mb-3" id="itemList">
+            <li class="list-group-item">Item 1</li>
+            <li class="list-group-item">Item 2</li>
+            <li class="list-group-item">Item 3</li>
+        </ul>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="New Item" id="newItem">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button" id="addItem">Add Item</button>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#addItem').click(function() {
+                var newItemText = $('#newItem').val();
+                if (newItemText) {
+                    $('#itemList').append('<li class="list-group-item">' + newItemText + '</li>');
+                    $('#newItem').val('');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+

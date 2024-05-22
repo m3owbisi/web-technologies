@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Control Form</title>
+</head>
+<body>
+    <h1>User Control Form</h1>
+ 
+    <form action="#" method="post">
+        <!-- Text Input -->
+        <label for="text_input">Text Input:</label>
+        <input type="text" id="text_input" name="text_input" placeholder="Enter text">
+        <br>
+ 
+        <!-- Password Input -->
+        <label for="password_input">Password Input:</label>
+        <input type="password" id="password_input" name="password_input" placeholder="Enter password">
+        <br>
+ 
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+        <label>
+            <input type="radio" name="gender" value="male"> Male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female"> Female
+        </label>
+        <label>
+            <input type="radio" name="gender" value="other"> Other
+        </label>
+        <br>
+ 
+        <!-- Checkbox -->
+        <label for="subscribe_checkbox">Subscribe to Newsletter:</label>
+        <input type="checkbox" id="subscribe_checkbox" name="subscribe" value="yes">
+        <br>
+ 
+        <!-- Select Dropdown -->
+        <label for="country_select">Country:</label>
+        <select id="country_select" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+        </select>
+        <br>
+ 
+        <!-- Textarea -->
+        <label for="comments_textarea">Comments:</label>
+        <textarea id="comments_textarea" name="comments" rows="4" cols="50" placeholder="Enter your 	comments here"></textarea>
+        <br>
+ 
+        <!-- File Upload -->
+        <label for="file_upload">Upload a File:</label>
+        <input type="file" id="file_upload" name="file_upload">
+        <br>
+ 
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+

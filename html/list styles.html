@@ -1,0 +1,118 @@
+
+<!DOCTYPE html> 
+ 
+<html lang="en"> 
+ 
+<head> 
+ 
+    <meta charset="UTF-8"> 
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ 
+    <title>List Styles</title> 
+ 
+    <style> 
+ 
+        /* Style for unordered list (bulleted list) */ 
+ 
+        ul { 
+ 
+            list-style-type: disc; /* Use filled circles as bullets */ 
+ 
+            margin-left: 20px; /* Add some left margin for indentation */ 
+ 
+        } 
+ 
+  
+ 
+        /* Style for ordered list (numbered list) */ 
+ 
+        ol { 
+ 
+            list-style-type: decimal; /* Use numbers as list markers */ 
+ 
+            margin-left: 20px; /* Add left margin for indentation */ 
+ 
+        } 
+ 
+  
+ 
+        /* Style for definition list */ 
+ 
+        dl { 
+ 
+            margin-left: 20px; /* Add left margin for indentation */ 
+ 
+        } 
+ 
+        dt { 
+ 
+            font-weight: bold; /* Bold style for term (dt) */ 
+ 
+        } 
+ 
+        dd { 
+ 
+            margin-bottom: 10px; /* Add spacing between term and definition (dd) */ 
+ 
+        } 
+ 
+    </style> 
+ 
+</head> 
+ 
+<body>
+    <h1>My List Example</h1>
+    <ol class="roman-list">
+        <li>Founding of Rome</li>
+        <li>Battle of Marathon</li>
+        <li>Roman Republic established
+            <ul type="square">
+                <li type="circle">First Punic War</li>
+                <li>Second Punic War</li>
+                <li>Third Punic War</li>
+            </ul>
+        </li>
+        <li>Julius Caesar's assassination</li>
+        <li>Declaration of Independence
+            <ul class="circle-list">
+                <li>Writing of the Declaration</li>
+                <li>Signing of the Declaration</li>
+            </ul>
+        </li>
+        <li>Napoleon's exile to Elba</li>
+        <li>End of World War II
+            <ol class="decimal-list">
+                <li>Victory in Europe</li>
+                <li>Victory in Asia</li>
+            </ol>
+        </li>
+    </ol>
+ 
+    <!-- Definition List --> 
+ 
+    <h2>Definition List</h2> 
+ 
+    <dl> 
+ 
+        <dt>Term 1</dt> 
+ 
+        <dd>Definition 1</dd> 
+ 
+         
+ 
+        <dt>Term 2</dt> 
+ 
+        <dd>Definition 2</dd> 
+ 
+         
+ 
+        <dt>Term 3</dt> 
+ 
+        <dd>Definition 3</dd> 
+ 
+    </dl> 
+ 
+</body> 
+ 
+</html>
