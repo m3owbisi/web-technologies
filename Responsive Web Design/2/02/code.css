@@ -1,0 +1,4 @@
+.container::after {
+  content: "";
+  width: 860px;
+}

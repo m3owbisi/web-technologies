@@ -1,0 +1,63 @@
+* {
+  background-color: lavenderblush;
+}
+.js {
+  color: black;
+  font-family: monospace;
+  /* visibility: hidden; */
+}
+#heading0 {
+  color: pink;
+  font-family: monospace;
+  text-decoration: underline;
+}
+#heading1 {
+  color: pink;
+  font-family: monospace;
+}
+h3 {
+  color: black;
+  font-family: monospace;
+}
+p {
+  color: black;
+  font-family: monospace;
+}
+button {
+  background-color: hotpink;
+}
+h2 {
+  color: black;
+  font-family: monospace;
+}
+.box {
+  align-items: center;
+  background-color: hotpink;
+  border: 5px solid black;
+  border-radius: 5px;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin: 5px;
+  text-align: center;
+  font-family: cursive;
+  width: 100px;
+}
+.para-class {
+  color: black;
+  font-family: monospace;
+}
+.new-para-class {
+  color: lightskyblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}
+*/ .dark-mode {
+  background-color: black;
+  color: white;
+}
+.light-mode {
+  background-color: white;
+  color: black;
+}

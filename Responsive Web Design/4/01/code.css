@@ -1,0 +1,32 @@
+gradient-type(
+  color1,
+  color2
+);
+gradient-type(
+  color1,
+  color2,
+  color3
+);
+gradient-type(
+  color1,
+  color2 20%,
+  color3
+);
+linear-gradient(
+  var(--first-color) 0%,
+  var(--first-color) 40%,
+  var(--second-color) 40%,
+  var(--second-color) 80%
+);
+margin: auto;
+width: 5vw;
+height: 5vw;
+border-top: 1vw solid #000;
+border-bottom: 1vw solid #000;
+border-left: 1vw solid #999;
+border-right: 1vw solid #999;
+gradient-type(
+  direction,
+  color1,
+  color2
+);

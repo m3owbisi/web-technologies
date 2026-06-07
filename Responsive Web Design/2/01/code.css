@@ -1,0 +1,6 @@
+.card {
+  width: 300px;
+}
+p {
+  filter: blur(3px);
+}
