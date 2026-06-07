@@ -1,0 +1,562 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* /* style
+body {
+  background-color:rgb(255, 255, 0);
+  color: #ff0000;
+}
+h1 {
+  /* color: red; */
+/* color: pink; */
+/* color: blue;
+  color: green; */
+/* color: :rgb(255,0,0); */
+/* background-color: lemonchiffon; */
+/* color:#ffff00 */
+/* } */
+/* p {
+  color: hotpink;
+  /* background-color: honeydew; */
+/* color:#00ff00 */
+/* } */
+/* button {
+  color: :rgb(0,255,0);
+  color: deeppink; */
+/* background-color: ghostwhite; */
+/* } */
+/* 
+*{
+    universal
+}
+h1{
+    element
+}
+#myID{
+    id
+}
+.myClass{
+    class
+} */
+/* * {
+  color: blue;
+}
+#heading1 {
+  color: pink;
+}
+#para1 {
+  color: hotpink;
+}
+.myClass {
+  color: palevioletred;
+} */
+/* 
+Practice Set 1
+Q1: Create a simple div with an id "box".
+    Add some text content inside the div.
+    Set its background color to blue.
+Q2: Create 3 headings with h1,h2, & h3.
+    Give them all a class "heading" & set color of "heading" to red.
+Q3: Create a button & set its background color to:
+    # green using css stylesheet
+    # blue using <style> tag
+    # pink using inline style
+*/
+#box {
+  /* 
+  left/right/center
+  underline/overline/line-through
+  normal/bold/bolder/lighter
+  100-900
+  */
+  background-color: aliceblue;
+  color: cornflowerblue;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.heading {
+  background-color: floralwhite;
+  color: deeppink;
+  text-align: center;
+  text-decoration: overline;
+  font-weight: lighter;
+  font-family: monospace;
+}
+
+/* button {
+  background-color: green;
+  text-align: center;
+  text-decoration: palevioletred wavy line-through;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+a {
+  /* text-decoration: none; */
+}
+
+/* 
+pixels (px)
+96 px = 1 inch
+font-size : 2px ;
+*/
+#one1 {
+  font-size: 25px;
+}
+
+#two2 {
+  font-size: 50px;
+}
+
+#three3 {
+  font-size: 100px;
+  line-height: normal;
+}
+
+#four4 {
+  line-height: 50px;
+  text-transform: lowercase;
+}
+
+/* 
+text-transform:uppercase/lowercase/capitalize/none;
+*/
+/* 
+Practice Set 2
+Q1: Create a heading centred on the page with all of its text capitalized by default.
+Q2: Set the font family of all the content in the document to "Times New Roman".
+Q3: Create one div inside another div.
+    Set id & text "outer" for the first one & "inner" for the second one.
+    Set the outer div text size to 25px & inner div text size to 10px.
+*/
+#five5 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#outer {
+  font-size: 25px;
+  border: 2px solid black;
+}
+
+#inner {
+  font-size: 10px;
+}
+
+div {
+  background-color: plum;
+  /* height: 100px; */
+  /* width: 100px; */
+  border-width: 3px;
+  border-style: dashed;
+  border-color: black;
+  text-align: center;
+  border-radius: 25px;
+  margin: 50px;
+  padding: 50px;
+  display: block;
+  /* transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: steps(2);
+  transition-delay:2ms; */
+  /* animation-name: colorAnimate;
+  animation-duration:3s;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count:infinite; 
+  animation-delay:0; */
+}
+/* 
+border-width:2px;
+border-style:solid/dotted/dashed;
+border-color:black;
+*/
+/* 
+border-radius:10px;
+border-radius:50%;
+*/
+/*
+padding-left  margin-left
+padding-right margin-right
+padding-top margin-top
+padding-bottom  margin-bottom
+*/
+/* 
+padding:50px; margin
+padding:1px 2px 3px 4px;  margin
+top|right|bottom|left -> clockwise
+*/
+/* 
+Practice Set 3
+Q1: Create a div with height & width of 100px.
+    Set its background colour to green & the border radius to 50%.
+Q2: Create the following navbar.
+*/
+#navbar {
+  color: white;
+  height: 60px;
+  /* height */
+  background-color: #0f1111;
+  /* black */
+  /* position: sticky; */
+  top:0;
+}
+
+#search-button {
+  background-color: #f08804;
+  /* yellow */
+}
+
+#logo {
+  font-size: 25px;
+  /* text */
+  color: #f08804;
+}
+
+a {
+  color: white;
+  margin-right: 15px;
+  /* gap */
+  text-decoration: none;
+}
+
+#search-button {
+  margin: 2px;
+  padding: 2px;
+}
+
+/* 
+display:inline/block/inline-block/none;
+*/
+.box {
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+  padding: 25px;
+  display: inline-block;
+  /* visibility: hidden; */
+  background-color: rgba(231, 221, 255, 1);
+  color: rgba(63, 17, 48, 1);
+}
+/* 
+Practice Set 4
+Q1: Create a webpage layout with a header,a footer & a content area containing 3 divs.
+    Set the height & width of divs to 100px.
+    (add the previous navbar in the header)
+Q2: Add borders to all the divs.
+Q3: Add a different background color to each div with an opacity of 0.5.
+Q4: Give the content area an appropriate height.
+*/
+.content-box {
+  height: 100px;
+  width: 100px;
+  border: 2px dashed black;
+  display: inline-block;
+}
+#content{
+  height=700px;
+  background-image: url("https://images.unsplash.com/photo-1605184861755-8f190fea96a5?q=80&w=983&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}
+footer {
+  background-color: #0f1111;
+  color: white;
+  text-align: center;
+}
+/* 
+%
+em
+rem
+width:33%;
+margin-left:50%;
+vh
+vw
+position:static/relative/absolute/fixed/sticky
+z-index:auto(0)
+z-index:1/2/..
+z-index:-1/-2/..
+background-image:url("image.jpegs");
+background-size:cover/contain/auto;
+*/
+#boxes1{
+  font-size: 20px;
+  /* height: 100px; */
+  height: 50vh;
+  width: 200px;
+  background-color:deepskyblue;
+  background-image: url("https://images.unsplash.com/photo-1518288774672-b94e808873ff?q=80&w=1038&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  align-items: center;
+  align-content: center;
+}
+#boxes2{
+  height: 250px;
+  /* width: 30%; */
+  background-color: deepskyblue;
+  margin: 20%;
+  font-size: 2em;
+  /* width:5rem; */
+  width:500px;
+  background-image: url("https://images.unsplash.com/photo-1587300003388-59208cc962cb?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size:cover;
+  background-repeat: no-repeat;
+  align-items:;
+  align-content:flex-start;
+  align-self: flex-end;
+}
+#position-box{
+  background-image:url("https://images.unsplash.com/photo-1605184861755-8f190fea96a5?q=80&w=983&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  flex-grow:;
+}
+.position{
+  height: 100px;
+  width: 100px;
+  background-color:#E2EAF4;
+  border: 5px solid rgb(231, 221, 255);
+  display: inline-block;
+}
+#position-box1{
+  /* position: relative;
+  top: 10px;
+  right:100px; */
+  background-image: url("https://i.pinimg.com/736x/53/b5/c3/53b5c3cc4670a4c706a766bf43ab23d2.jpg");
+  background-size: cover;
+}
+#position-box2{
+  /* position: relative;
+  left:100px;
+  z-index: -1; */
+  background-image: url("https://i.pinimg.com/564x/17/ba/88/17ba8821d02b8317c82fb74a40e6cb71.jpg");
+  background-size: cover;
+}
+#position-box3{
+  /* position: relative;
+  right: 100px;
+  z-index: 1; */
+  background-image: url("https://i.pinimg.com/564x/1a/87/2a/1a872a16179c33313abb344666089633.jpg");
+  background-size: cover;
+}
+#position-box4{
+  /* position: relative;
+  left: 100px;
+  bottom: 10px;
+  z-index: 0; */
+  background-image: url("https://i.pinimg.com/236x/98/75/72/987572314f483845b70d518104d764f2.jpg");
+  background-size: cover;
+}
+/* 
+Practice Set 5
+Qs: Create the following layout using the given html.
+    Give the div a height,width & some background image.
+    Use the appropriate position property for the div element to place it at the
+    right end of the page.
+    (The div should not move even in scroll)
+    <p>lorem*5</p>
+    <div>love nature</div>
+    <p>lorem*5</p>
+*/
+.love-nature{
+  height: 100px;
+  width: 100px;
+  background-image: url("https://i.pinimg.com/736x/0b/3a/7e/0b3a7eb7007aa66ef44d6b78b1cd15c5.jpg");
+  background-size: cover;
+  color:plum;
+  /* position: fixed;
+  top: 50px;
+  right: 0px; */
+  flex-grow: ;
+  flex-shrink: 0.5;
+}
+/* 
+flex-direction:row;
+flex-direction:row-reverse;
+flex-direction:column;
+flex-direction:column-reverse;
+justify-content
+flex-wrap
+align-items
+align-control
+align-self
+flex-grow
+flex-shrink
+*/
+/* 
+Practice Set 6
+Qs: Create a navbar with 4 options in the form of anchor tags inside list items.
+    Now, use flexbox to place them all spaced equally in a single line.
+Qs: Use flexbox to center one div inside another div.
+Qs: Which has higher-priority-align-items or align-self?
+*/
+.bar{
+  color: black;
+  background-color: rgb(204, 108, 231);
+  display: flex;
+  justify-content: center;
+}
+ul{
+  background-color: #E7DDFF;
+}
+li{
+  text-decoration: none;
+  list-style-type: disc;
+  display: inline;
+}
+.outer-div{
+  height: 400px;
+  width: 400px;
+  background-color:#E7DDFF;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.inner-div{
+  height: 100px;
+  width: 100px;
+  background-color:rgb(204, 108, 231);
+}
+/* 
+@media(width:600px){
+  div{
+    background-color:red;0
+  }
+}
+max-width:600px
+@media(min-width:600px){
+  div{
+    background-color:red;
+  }
+}
+@media(min-width:200px) and (min-width:300px){
+  div{
+    background-color:red;
+  }
+}
+*/
+/* 
+Practice Set 7
+Qs: Add a media query to implement the following:
+    the color of a div changes to green for viewport width less than 300px
+    the color of a div changes to pink for width between 300px & 400px
+    the color of a div changes to red for width between 400px & 600px
+    the color of a div changes to blue for width above 600px
+*/
+.media-div{
+  height: 200px;
+  width: 200px;
+  background-color: gold;
+  /* position: absolute;
+  top: 100px;
+  left: 100px; */
+  /* transform: rotate(45deg); */
+  transition: all 2s ease-in-out;
+}
+@media(max-width:300px){
+  .media-div{
+    background-color:greenyellow;
+  }
+}
+@media(min-width:300px) and (max-width:400px){
+  .media-div{
+    background-color:pink;
+  }
+}
+@media(min-width:400px) and (max-width:600px){
+  .media-div{
+    background-color:orangered;
+  }
+}
+@media(min-width:600px){
+  .media-div{
+    background-color:paleturquoise;
+  }
+}
+/* 
+transition-property:property you want to transition (font-size,width,etc.).
+transition-duration:2s/4ms..
+transition-timing:ease-in/ease-out/linear/steps..
+transition-delay:2s/4ms..
+transition:font-size 2s ease-in-out 0.2s;
+transform:rotate(45deg);
+rotate:45deg;
+rotateX:45deg;
+rotateY:45deg;
+rotateZ:45deg;
+transform:scale(2);
+transform:scale(0.5);
+transform:scale(1,2);
+transform:scaleX(0.5);
+transform:scaleY(0.5);ss
+transform:translate(20px);
+transform:translate(20px,50px);
+transform:translateX(20px);
+transform:translateY(20px);
+transform:skew(30deg);
+@keyframe myName{
+  from{font-size:20px;}
+  to{font-size:40px;}
+}
+animation-name
+animation-duration
+animation-timing-function
+animation-delay
+animation-iteration-count
+animation-direction
+animation:myName 2s linear 3s infinite normal
+@keyframe myName{
+  0%{font-size:20px;}
+  50%{font-size:30px;}
+  100%{font-size:40px;}
+}
+*/
+/* div:hover{
+  background-color:blanchedalmond;
+  /* transform:translate(500px); */
+  /* transform:skew(5deg); */
+/* }
+div:active{
+  background-color:palegreen;
+} */ 
+/* @keyframe colorAnimate{
+  from{background-color:;}
+  to{background-color:;}
+} */
+/* 
+Practice Set 8
+Qs: Create a simple loader using CSS
+    Step1: create a div with circular shape & a thick border from one end
+    (top/bottom/left/right)
+    Step2: to make it spin create an animation which transforms it from 0deg to 360deg
+    Step3: add the animation property to the loader with infinite duration
+*/
+#spin-loader{
+  height: 50px;
+  width: 50px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  border: 5px dashed black;
+  border-top: 5px solid black;
+  animation-name: spinloader;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  /* animation: spinloader 3s ease-in 0s infinite normal; */
+}
+@keyframes spinloader{
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+}
